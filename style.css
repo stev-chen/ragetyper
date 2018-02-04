@@ -1,0 +1,35 @@
+input{
+  cursor:default;
+}
+
+.invis {
+  background:rgba(0,0,0,0);
+  border:none;
+  color: transparent;
+  text-shadow: 0 0 0 0;
+  &:focus {
+    outline: none;
+  }
+}
+
+.curr {
+  font-size: 8rem;
+}
+
+.title{
+  font-size: 3rem;
+}
+
+.main-text{
+  width=1px;
+}
+
+.container{
+  position: fixed;
+  bottom: 20px;
+  word-break: break-all;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
