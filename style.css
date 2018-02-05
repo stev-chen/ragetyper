@@ -13,11 +13,12 @@ input{
 }
 
 .curr {
-  font-size: 8rem;
+  font-size: 2rem;
+  white-space: nowrap;
 }
 
 .title{
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .main-text{
